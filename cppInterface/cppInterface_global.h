@@ -1,0 +1,12 @@
+#ifndef CPPINTERFACE_GLOBAL_H
+#define CPPINTERFACE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CPPINTERFACE_LIBRARY)
+#  define CPPINTERFACE_EXPORT Q_DECL_EXPORT
+#else
+#  define CPPINTERFACE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CPPINTERFACE_GLOBAL_H
