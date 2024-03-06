@@ -1,15 +1,63 @@
-# JNI
+Title
+===
 JNI demo，包括C++、java、完整示例
 
-## 目录结构
-+ cppInterface：C++接口，包含jni源代码，接口定义，最终输出lib和头文件给到java使用
-+ lib：cpp输出的lib
-+ src：java代码
 
-## 如何使用
-+ cpp修改调整目录cppInterface下的内容
-+ java修改调整目录src下的内容即可将demo跑起来
+## Authors
+- Name:  `Rany010`
+- Email:  `rany010.y@gmail.com`
+
+## Install & Dependence
+- win
+- Qt
+- jdk
+
+## Use
+- for cpp
+  ```
+  use Qt Creator open cppInterface.pro
+  ```
+- for java
+  ```
+  open JNI\src\com\rany010
+  ```
+
+## Directory Hierarchy
+```
+- JNI
+  - cppInterface
+    - com_rany010_JavaInterface.cpp
+    - com_rany010_JavaInterface.h
+    - cppInterface_global.h
+    - cppinterface.cpp
+    - cppinterface.h
+    - cppInterface.pro
+    - cppInterface.pro.user
+    - jni_md.h
+    - jni.h
+  - lib
+    - cppInterface.dll
+  - src\com\rany010
+    - BodyIndex.java
+    - com_rany010_JavaInterface.h
+    - JavaInterface.java
+    - Params.java
+```
+## Code Details
+### Tested Platform
+- software
+  ```
+None
+  ```
+- hardware
+  ```
+None
+  ```
+
+## References
+- [paper-1]()
+- [paper-2]()
   
-## 写在最后
-+ 如果对你有帮助请点一下star，这将让我备受鼓舞
-+ 水平有限可能有诸多考虑不全面的地方，欢迎issues，共同进步
+## Other
+- If you find this helpful, please give it a star, it will motivate me a lot.
+- My level is limited and there may be many aspects that are not fully considered. Welcome to raise issues and make progress together
