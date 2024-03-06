@@ -47,11 +47,9 @@ JNI demo，包括C++、java、完整示例
 ### Tested Platform
 - software
   ```
-None
   ```
 - hardware
   ```
-None
   ```
 
 ## References
